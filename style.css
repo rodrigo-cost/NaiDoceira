@@ -1,0 +1,124 @@
+body {
+    background-image: url('img/bg-section.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+hr{
+    border: 0;
+	border-top: 2px solid rgba(94, 62, 19, 0.863);
+    width:20%;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+  }
+/* Formatações em navbar*/
+.navbar {
+    background-color: rgba(94, 62, 19, 0.863);
+}
+a.navbar-brand {
+    color: aliceblue;
+}
+.navbar-item {
+    color: aliceblue;
+    
+}
+.navbar-item:hover {
+    color: aliceblue;
+    background-color: rgb(173, 116, 41) !important;
+}
+.collapsed {
+    border: 1px aliceblue solid;
+}
+button span {
+    background-color: aliceblue;
+}
+
+/*Formatação do corpo do site */
+.artigo {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*formatação do carrosel*/
+.carousel {
+    text-align: center;
+    background-color: rgba(90, 70, 28, 0.479);
+    color: black;
+    border-radius: 10px;
+}
+img {
+    margin: auto;
+}
+h1.produto-titulo, .h3 {
+    text-align: center;
+}
+
+/*formatação da div de serviços*/
+.servico-titulo, .servico-descricao {
+    text-align: center;
+}
+.img-servicos {
+    background-color: rgb(56, 34, 1);
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+
+/*formatação de produtos*/
+.colunas {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.produtoItem {
+    text-align: center;
+}
+
+/*formatação contatods*/
+.contatos-titulo, .list-group {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px) {
+    /*Formatação do carrossel*/
+    .carousel {
+        width: 700px;
+    }
+    /*formatação de produtos*/
+    
+    .produtoItem {
+        margin: 8px;
+        width: 270px;
+        
+    }
+  }
+
+@media (max-width: 991px) {
+    .produtoItem {
+        margin: 2px;
+        width: 200px;
+        height: 230px;
+        
+    }
+}
+
+@media (max-width: 551px) {
+    .h1 {
+        font-size: 1.8em;
+    }
+    .h3,.h4 {font-size: 1.2em;}
+    .produtoItem {
+        width: 130px;
+        height: 170px;
+        margin-left: 2px;
+    }
+}
+
+
