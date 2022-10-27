@@ -94,8 +94,8 @@ h1.produto-titulo, .h3 {
     /*formatação de produtos*/
     
     .produtoItem {
-        margin: 8px;
-        width: 270px;
+        margin: 3px;
+        width: 280px;
         
     }
   }
